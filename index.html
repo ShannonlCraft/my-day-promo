@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Day App | Shannon Craft</title>
+<meta name="description" content="My Day App — everything you need to win your day in one place. Clarity, focus, habits, prayer, and momentum in a single simple system.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
@@ -21,14 +23,7 @@
   --border:#252525;
   --font:'Inter',-apple-system,sans-serif;
 }
-LANDING PAGE CSS ─────────────────────────── */
-:root{
-  --orange:#F97316; --orange2:#e06214;
-  --black:#0a0a0a; --dark:#111111;
-  --card:#161616; --card2:#1c1c1c;
-  --white:#ffffff; --muted:#777777; --muted2:#aaaaaa;
-  --border:#252525; --font:'Inter',-apple-system,sans-serif;
-}
+/* LANDING PAGE CSS ─────────────────────────── */
 html{scroll-behavior:smooth;}
 body{background:var(--black);color:var(--white);font-family:var(--font);-webkit-font-smoothing:antialiased;overflow-x:hidden;}
 img{max-width:100%;display:block;}
@@ -150,10 +145,7 @@ footer{background:var(--black);border-top:1px solid var(--border);padding:56px 0
 .footer-bottom a{margin-left:20px;}
 .footer-bottom a:hover{color:var(--orange);}
 @media(max-width:800px){.feature-inner{grid-template-columns:1fr;gap:40px;}.feature-panel{display:none;}.t-grid{grid-template-columns:1fr;}.stats-row{gap:40px;}.price-card{padding:36px 28px;}.price-big{font-size:48px;}.footer-grid{flex-direction:column;gap:32px;}.footer-bottom{flex-direction:column;text-align:center;}}
-@media(max-width:500px){.hero{padding:120px 0 0;}.section-num{font-size:130px;}}
-
-.hero{padding-bottom:80px!important;}
-body{overflow-x:hidden;}
+@media(max-width:500px){.hero{padding:120px 0 80px;}.section-num{font-size:130px;}}
 </style>
 </head>
 <body>
@@ -293,10 +285,10 @@ body{overflow-x:hidden;}
       <div class="foot-col" id="p-footer-col1"><h5>Program</h5><ul>
         <li><a href="#join">How It Works</a></li>
         <li><a href="#join">Join Now</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#section-testimonials">Testimonials</a></li>
       </ul></div>
       <div class="foot-col" id="p-footer-col2"><h5 id="p-footer-col2-head">Shannon Craft</h5><ul>
-        <li id="p-footer-site-row"><a href="https://shannoncraft.com" id="p-footer-site" target="_blank">ShannonCraft.com</a></li>
+        <li id="p-footer-site-row"><a href="https://shannoncraft.com" id="p-footer-site" target="_blank" rel="noopener noreferrer">ShannonCraft.com</a></li>
         <li id="p-footer-email-row"><a href="mailto:shannon@shannoncraft.com" id="p-footer-email">Contact</a></li>
       </ul></div>
     </div>
